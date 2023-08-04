@@ -1,0 +1,51 @@
+{% extends "M6ind2/base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- Banner de la pagina -->
+<header>
+<div class="p-5 text-center bg-image"
+  style=" background-image: url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1061&q=80');  height: 900px;">
+  <div class="mask" style="background-color: rgba(44, 44, 44, 0.527); height: 800px;">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white mb-5 mt-5">
+        <h1 class="mb-3">Bienvenidos</h1>
+        <h3>A nuestra pagina web</h3>
+        <!-- <h4 class="mb-3">a nuestra tienda online</h4> -->
+        <!-- <a class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+<!-- Imagenes con informacion -->
+<div class="container ">
+  <div class="row m-5">
+    <div class="col-sm-4">
+      <div class="card bloque">
+        <img src="https://images.unsplash.com/photo-1553292218-4892c2e7e1ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" class="card-img-top" alt="Chicago Skyscrapers"/>
+        <div class="overlay-texto">
+          <h5>Cafe de Especialidad</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card bloque position-relative">
+        <img src="https://images.unsplash.com/photo-1577590835286-1cdd24c08fd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" class="card-img-top" alt="Chicago Skyscrapers"/>
+          <div class="overlay-texto">
+            <h5>Latte art</h5>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card bloque">
+        <img src="https://images.unsplash.com/photo-1582768772255-7fb8066357ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=701&q=80" class="card-img-top" alt="Chicago Skyscrapers"/>
+        <div class="overlay-texto">
+          <h5>Brew</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content%}
